@@ -196,11 +196,7 @@ $(function(){
       name: '必应',
       img: 'images/logo_3.jpg',
       url: 'https://cn.bing.com/search?q='
-    }, {
-      name: '好搜',
-      img: 'images/logo_4.jpg',
-      url: 'https://www.so.com/s?q='
-    }, {
+    },{
       name: '搜狗',
       img: 'images/logo_5.jpg',
       url: 'https://www.sogou.com/web?query='
