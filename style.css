@@ -28,28 +28,30 @@
 		padding: 0 3px;
 	}
 	.dh a{
-		background: rgba(255,255,255,1);
-		text-align: center;
+		background: rgba(255,255,255,255);
+		text-align:center;
 		display: block;
 		line-height: 45px;
-		border-radius: 2px;
+		border-radius: 30px;
 		font-size: 14px;
-		color: #808080;
-		transition: all 0.3s ease;
-		-moz-transition: all 0.3s ease;
-		-webkit-transition: all 0.3s ease;
-		-o-transition: all 0.3s ease;
+		color: #616161;
+		transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		-webkit-transition: all 0.4s ease;
+		-o-transition: all 0.4s ease;
+    		opacity: 0.9;
+    		font-family:"Trebuchet MS", Helvetica, sans-serif;
 	}
 	.dh a:hover {
-		color: #FFF;
+		color: #fff;
 		font-size: 20px;
 		font-weight: bold;
-		background: #459df5;
+		background: #039BE5;
 	}
 	.dhname {
-		font-size: 16px;
-		font-weight: 400;
-		color: #808080;
+		font-size: 15px;
+		font-weight: 50;
+		color: #616161;
 		display: block;
 		margin-bottom: 5px;
 	}
