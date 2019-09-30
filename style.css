@@ -2,8 +2,7 @@
         height: 100%;
     }
 	body {
-		background-image: url('./images/background.jpg');
-		background-repeat:repeat-y;
+		background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
@@ -51,7 +50,7 @@
 	.dhname {
 		font-size: 15px;
 		font-weight: 50;
-		color: #616161;
+		color: #fff;
 		display: block;
 		margin-bottom: 5px;
 	}
