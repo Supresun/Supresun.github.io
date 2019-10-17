@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>NiceDay</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <meta name="keywords" content="个人导航"/>
+    <meta name="description" content="个人网址导航"/>
+    <meta name="google-site-verification" content="kmPPwcr2iPkZ9AeFWDuz5qjI_LhEBUqx5oX1cF7RLeU" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.8.1/css/zui.min.css">
+<script src="https://cdn.bootcss.com/zui/1.8.1/lib/jquery/jquery.js"></script>
+<script src="https://cdn.bootcss.com/zui/1.8.1/js/zui.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container" style="padding-right: 0px;padding-left: 0px;">
+        <div class="main">
+            <h1 class="logo">
+                <a href="index.html">
+                    <span id="dwell">Love Life</span>
+                </a>
+            </h1>
+        </div>
+	</div>
+</header>
+<div id="content" data-customize="true" data-customtheme="true" class="default-bg">
+<div class="main-index">
+<div class="container content-box">
+	<section class="sousuo">
+	  <div class="search">
+		<div class="search-box">
+		  <img class="search-icon" src="images/logo.jpg">
+		  <input type="text" id="txt" class="search-input" placeholder="搜索">
+		  <button class="search-btn visible-sm visible-md visible-lg" id="search-btn">搜索</button>
+		  <i class="search-clear icon icon-remove-sign" style="display: none;"></i>
+		</div>
+		<!-- 搜索热词 -->
+		<div class="box search-hot-text" id="box" style="display: none;">
+		  <ul></ul>
+		</div>
+		<!-- 搜索引擎 -->
+		<div class="search-engine" style="display: none;">
+		  <div class="search-engine-head">
+			<strong class="search-engine-tit">选择默认搜索引擎：</strong>
+		  </div>
+		  <ul class="search-engine-list">
+		  </ul>
+		</div>
+	  </div>
+	</section>
+		<div class="row dh">
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">个人博客</strong></div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://news.cnblogs.com/" target="_blank">博客园</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.sqlsec.com/" target="_blank">国光</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.v2ex.com/" target="_blank">V2EX</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://zhang.ge/" target="_blank">ZHANGGE</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.luxiaoming.xyz" target="_blank">MXL</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://tech.meituan.com/" target="_blank">MEITUAN</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.opengps.cn/" target="_blank">openGPS</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.codesheep.cn/" target="_blank">CODESHEEP</a>
+					</div>
+
+                     			<div class="col-xs-4 mb-2">
+						<a href="http://blogs.360.cn/" target="_blank">360</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">视频</strong></div>
+                     <div class="col-xs-4 mb-2">
+						<a href="https://www.bilibili.com/" target="_blank">BILIBILI</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.bttwo.com/" target="_blank">BTBT</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.youtube.com/" target="_blank">Youtube</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="http://www.52dyy.vip/" target="_blank">52DYY</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.netflix.com/" target="_blank">Netflix</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://cn.gimy.tv/" target="_blank">剧迷</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="http://tvvtvv.com/" target="_blank">直播1</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="http://iptv206.com/" target="_blank">直播2</a>
+					</div>
+                     <div class="col-xs-4 mb-2">
+						<a href="http://www.hannikan.com/" target="_blank">HNK</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">工具1</strong></div>
+                     <div class="col-xs-4 mb-2">
+						<a href="https://www.fotor.com/" target="_blank">图片编辑</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://ps.gaoding.com/sources/b3caa19497d338fc4d/index.html" target="_blank">在线PS</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.draw.io/" target="_blank">流程图</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://cowtransfer.com/" target="_blank">奶牛快传</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://translate.google.cn/?hl=zh-CN/" target="_blank">翻译</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://coggle.it/" target="_blank">脑图</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://convertio.co/zh/" target="_blank">文件转换</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.google.com/" target="_blank">Google</a>
+					</div>
+                     <div class="col-xs-4 mb-2">
+						<a href="" target="_blank"></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">图片</strong></div>
+                     			<div class="col-xs-4 mb-2">
+						<a href="https://wallhaven.cc/" target="_blank">wallhaven</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.pexels.com/" target="_blank">STOCK</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.nicepik.com/" target="_blank">STOCK HD</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.ssyer.com/" target="_blank">SSYER</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.pinterest.com/" target="_blank">Pinterest</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://webgradients.com/" target="_blank">Colors</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+                     <div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">资源</strong></div>
+                     <div class="col-xs-4 mb-2">
+						<a href="https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=recommend&page_limit=20&page_start=0" target="_blank">热门电影</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.30secondsofcode.org/" target="_blank">30sLEAEN</a>
+						
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://wht.im/" target="_blank">WHT</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://xclient.info/" target="_blank">MACAPP</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="http://pjrj.xyyh.xyz/js/" target="_blank">知网青年</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+                     <div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">工具2</strong></div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://mail.protonmail.com/" target="_blank">Protomill</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://onedrive.live.com/" target="_blank">ONEDRIVE</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.jianguoyun.com/" target="_blank">坚果云</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://mail.163.com/" target="_blank">163</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://mail.google.com/" target="_blank">GMAIL</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="http://www.moakt.com/" target="_blank">TEMPMAIL</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://tool.bugku.com/?wafcloud=2" target="_blank">CTF</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://leetcode-cn.com/" target="_blank">Leetcode</a>
+					</div>
+
+                     			<div class="col-xs-4 mb-2">
+						<a href="https://github.com/" target="_blank">GitHub</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">文档</strong></div>
+                     <div class="col-xs-4 mb-2">
+						<a href="https://leohxj.gitbooks.io/a-programmer-prepares/content/knowledge/learning-design.html" target="_blank">自修</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+
+						<a href="https://github.com/YZHANG1270/Girls-In-AI/blob/master/README.md" target="_blank">GIA</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://firmianay.gitbooks.io/ctf-all-in-one/" target="_blank">CAIO</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://html5up.net/" target="_blank">HTML5</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://hellogithub.com/" target="_blank">HELLOGITHB</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://www.runoob.com/" target="_blank">RUNOOB</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+                     <div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">废鸡</strong></div>
+                     <div class="col-xs-4 mb-2">
+						<a href="https://zhs.tw/" target="_blank">zhs</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://run.iplcm.shop/" target="_blank">LMY</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://home.202net.me/" target="_blank">2</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://github.com/ConnersHua/Profiles/tree/master/" target="_blank">神机规则</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"></a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"></a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+                     <div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-6 col-md-4 mb-3 dh">
+				<div class="row">
+					<div class="col-xs-12"><strong class="dhname" id="1">工具3</strong></div>
+                      			<div class="col-xs-4 mb-2">
+						<a href="https://alloyteam.github.io/AlloyTimer/" target="_blank">番茄钟</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="https://ip.skk.moe/" target="_blank">IP</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://dwz.51.la/" target="_blank">51LaDWZ</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="http://www.speedtest.cn/" target="_blank">测速</a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="https://zzkia.noddl.me:8020/?tdsourcetag=s_pctim_aiomsg/" target="_blank">NOKIA图</a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+					<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+                     			<div class="col-xs-4 mb-2">
+						<a href="index.html" target="_blank"> </a>
+					</div>
+				</div>
+			</div>
+			
+				</div>
+			</div>
+		</div>
+</div>
+
+</div>
+</div>
+<footer class="footer text-center bg-white">
+    <div class="container">
+		<span >2019.10.15-update</span>
+    </div>
+</footer>
+<div id="get-top" title="回到顶部" style="display: none;"><i class="icon icon-arrow-up"></i></div>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23dwell" defer></script>
+<script src="js.js"></script>
+</body>
+</html>
