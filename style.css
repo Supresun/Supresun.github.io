@@ -331,7 +331,17 @@
     #content .content-box {
       padding-top: 50px;
     }
-    .sousuo {
+		.search-btn {
+		width: 80px;
+		height: 30px;
+		background: #fff;
+		border: none;
+		color: #64B5F6;
+		font-weight: bold;
+		border-left: 1px solid #e6e6e6;
+		outline: none;
+	}
+    		.sousuo {
 			padding: 30px 30px;
 			margin-top: 0;
 		}
