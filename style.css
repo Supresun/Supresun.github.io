@@ -153,12 +153,7 @@
 		color: #999;
 		cursor: pointer;
 		list-style: none;
-		transition-duration: 0.4s;
-		-webkit-transition-duration: 0.4s;
-	}
-	.search-engine-list li:hover {
-		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-	}
+		
 	.search-engine ul {
 		padding: 0;
 	}
