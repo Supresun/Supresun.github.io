@@ -298,9 +298,9 @@ function myApi(){
         mousehover : function(obj, outer, inner){
 
             obj.hover(function() {
-                outer.fadeIn(300);
+                outer.fadeIn(400);
             }, function() {
-                outer.fadeOut(200);
+                outer.fadeOut(400);
             });
 
             inner.hover(function() {
