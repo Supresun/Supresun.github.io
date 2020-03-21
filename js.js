@@ -177,14 +177,14 @@ $(function(){
       img: 'images/logo.jpg',
       url: 'https://www.baidu.com/s?wd='
     }, {
+      name: '初页',
+      img: 'images/logo_3.jpg',
+      url: 'https://www.startpage.com/do/search?op=un11&t=default&prfe=36c84513558a2d34bf0d89ea505333ad25eaad7546bb0b480c1c89932309a9bc559a4c3539b4c3d7600bf14a6d642703&q='
+    },{
       name: '谷歌',
       img: 'images/logo_2.jpg',
       url: 'https://www.google.com/search?q='
     }, {
-      name: '初页',
-      img: 'images/logo_3.jpg',
-      url: 'https://www.startpage.com/do/search?op=un11&t=default&prfe=5f28b111dfebc6747f37f645b3624fe00d2c73d63ea6e572d07295b9d50a07b15f789ea55b78a3940212f4c3b62ee8b9&q='
-    },{
       name: '搜狗',
       img: 'images/logo_4.jpg',
       url: 'https://www.sogou.com/web?query='
