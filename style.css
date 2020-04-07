@@ -2,7 +2,8 @@
         height: 100%;
     }
 	body {
-		background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+		background-color:blue;
+		/*background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);*/
 		overflow-x: hidden;
 		overflow-y: auto;
 	}
