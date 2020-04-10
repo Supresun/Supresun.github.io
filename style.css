@@ -386,8 +386,23 @@
   	:root {
     		--background-color: #222;
 		}
+	header {
+		background: var(--background-color);
+		}
+	header .main {
+		background: var(--background-color);
+	}
+	header .logo {
+			background: var(--background-color);
+		}
 	.dh a{
 		background: #2c2c2c;
 		color: #d8d8d8;
+		}
+	.search-input {
+		background: #2c2c2c;
+		}
+	.footer {
+		background: var(--background-color);
 		}
   	}
