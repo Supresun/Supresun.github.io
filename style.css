@@ -46,6 +46,12 @@
 		background: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
         transform: scale(0.95);
 	}
+	.dh a:active {
+		color: #fff;
+		font-size: 70%;
+		background: linear-gradient(to right, #3ab5b0 0%, #3d99bf 0%, #56317a 100%);
+	}
+	
 	.dhname {
 		font-size: 15px;
 		font-weight: 50;
@@ -158,6 +164,9 @@
 	.search-engine-list li:hover {
 		box-shadow: 0 4px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 	}
+	.search-engine-list li:active {
+		box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
 	.search-engine ul {
 		padding: 0;
 	}
@@ -190,11 +199,15 @@
 		font-weight: bold;
 		border-left: 1px solid #e6e6e6;
 		outline: none;
-		transition-duration: 0.4s;
-		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.2s;
+		-webkit-transition-duration: 0.2s;
 	}
 	.search-btn:hover {
 		background-color: rgb(94, 148, 215);
+		color: rgb(244, 245, 245);
+	}
+	.search-btn:active {
+		background-color: rgb(74 112 139);
 		color: rgb(244, 245, 245);
 	}
 	.hidden-xs {
