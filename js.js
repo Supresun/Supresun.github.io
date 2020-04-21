@@ -177,9 +177,9 @@ $(function(){
       img: 'images/logo.jpg',
       url: 'https://www.baidu.com/s?wd='
     }, {
-      name: '初页',
+      name: '多吉',
       img: 'images/logo_3.jpg',
-      url: 'https://www.startpage.com/do/search?op=un11&t=default&prfe=36c84513558a2d34bf0d89ea505333ad25eaad7546bb0b480c1c89932309a9bc559a4c3539b4c3d7600bf14a6d642703&q='
+      url: 'https://www.dogedoge.com/?q='
     },{
       name: '谷歌',
       img: 'images/logo_2.jpg',
