@@ -67,12 +67,8 @@ function browserRedirect() {
 var now = -1;
 var resLength = 0;
 var thisSearch = 'https://www.dogedoge.com/?q=';
-var thisSearchIcon = './logo_3.jpg';
+var thisSearchIcon = './logo.jpg';
 var storage = window.localStorage;
-if(!storage.stopHot){
-    storage.stopHot = true
-}
-storage.stopHot == 'false' ? $('#hot-btn').addClass('off') : $('#hot-btn').removeClass('off');
 var ssData = storage.searchEngine;
 if(storage.searchEngine != undefined){
   ssData = ssData.split(',');
@@ -94,7 +90,7 @@ $('#txt').keyup(function(e){
     $('.search-clear').css('display','none')
   }
 
-  if(e.keyCode == 38 || e.keyCode == 40 || storage.stopHot != 'true'){
+  if(e.keyCode == 38 || e.keyCode == 40 ){
       return
   };
   var dat = {
@@ -174,15 +170,15 @@ $(function(){
   var search = {
     data: [{
       name: '多吉',
-      img: 'images/logo_3.jpg',
+      img: 'images/logo.jpg',
       url: 'https://www.dogedoge.com/?q='
     },{
       name: '百度',
-      img: 'images/logo.jpg',
+      img: 'images/logo_2.jpg',
       url: 'https://www.baidu.com/s?wd='
     }, {
       name: '谷歌',
-      img: 'images/logo_2.jpg',
+      img: 'images/logo_3.jpg',
       url: 'https://www.google.com/search?q='
     }, {
       name: '搜狗',
@@ -203,16 +199,6 @@ $(function(){
     $('.search-engine').css('display', 'block')
   }, function() {
     $('.search-engine').css('display', 'none')
-  });
-
-  $('#hot-btn').on('click', function() {
-    $(this).toggleClass('off');
-    if(storage.stopHot == 'true'){
-      storage.stopHot = false
-    }else{
-      storage.stopHot = true
-    }
-    console.log(storage.stopHot)
   });
 
   $('.search-engine-list li').click(function() {
