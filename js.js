@@ -173,14 +173,14 @@ $(function(){
   //$('#box ul').html() === '' ? $('#box').css('height','0px') : $('#box').css('height','auto');
   var search = {
     data: [{
-      name: '百度',
-      img: 'images/logo.jpg',
-      url: 'https://www.baidu.com/s?wd='
-    }, {
       name: '多吉',
       img: 'images/logo_3.jpg',
       url: 'https://www.dogedoge.com/?q='
     },{
+      name: '百度',
+      img: 'images/logo.jpg',
+      url: 'https://www.baidu.com/s?wd='
+    }, {
       name: '谷歌',
       img: 'images/logo_2.jpg',
       url: 'https://www.google.com/search?q='
