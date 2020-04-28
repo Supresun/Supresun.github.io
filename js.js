@@ -66,7 +66,7 @@ function browserRedirect() {
 
 var now = -1;
 var resLength = 0;
-var thisSearch = 'https://www.dogedoge.com/?q=';
+var thisSearch = 'https://www.dogedoge.com/results?q=';
 var thisSearchIcon = './logo.jpg';
 var storage = window.localStorage;
 var ssData = storage.searchEngine;
@@ -171,7 +171,7 @@ $(function(){
     data: [{
       name: '多吉',
       img: 'images/logo.jpg',
-      url: 'https://www.dogedoge.com/?q='
+      url: 'https://www.dogedoge.com/results?q='
     },{
       name: '百度',
       img: 'images/logo_2.jpg',
