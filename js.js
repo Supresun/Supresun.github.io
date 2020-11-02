@@ -188,6 +188,10 @@ $(function(){
       name: '鸭鸭走',
       img: 'images/logo_5.jpg',
       url: 'https://duckduckgo.com/?q='
+    },{
+      name: '北邮人',
+      img: 'images/logo_6.jpg',
+      url: 'https://www.baidu.com/s?wd=site://bbs.byr.cn '
     }]
   }
   for(var i = 0; i < search.data.length; i++){
