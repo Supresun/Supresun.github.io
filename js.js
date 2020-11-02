@@ -191,7 +191,7 @@ $(function(){
     },{
       name: '北邮人',
       img: 'images/logo_6.jpg',
-      url: 'https://www.baidu.com/s?wd=site://bbs.byr.cn '
+      url: 'http://123.207.168.11/byrbbs/?key='
     }]
   }
   for(var i = 0; i < search.data.length; i++){
